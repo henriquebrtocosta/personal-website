@@ -1,0 +1,93 @@
+
+/* Estilo geral para o corpo da página */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef1f5;
+    color: #333a40;
+}
+
+/* Estilizando o cabeçalho da página */
+header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+}
+
+/* Estilizando o título principal dentro do header */
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+        
+/* Estilizando os títulos de seção (h2) */
+h2 {
+    color: #005fa3;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+/* Estilos para parágrafos e itens de lista (li) */
+p, li { 
+    font-size: 17px;
+}
+        
+/* Estilizando o rodapé */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555c63;
+}
+
+/* Estilizando links dentro do rodapé */
+footer a {
+    color: #0077cc;
+    font-weight: bold;
+}
+
+main {
+    width: 80%; /* O conteúdo principal ocupará 80% da largura do seu pai (o body) */
+    max-width: 900px; /* Mas não passará de 900 pixels de largura */
+    margin-left: auto; /* Truque para centralizar elementos de bloco com largura definida */
+    margin-right: auto; /* Truque para centralizar elementos de bloco com largura definida */
+    background-color: white; /* Dando um fundo branco para o conteúdo principal */
+    padding: 20px; /* Um espaçamento interno (veremos padding em detalhes depois) */
+}
+
+/* Vamos mudar alguns font-sizes para usar rem ou em */
+header h1#page-title { /* Combinando seletor de elemento e ID */
+    font-size: 2.25rem; /* Se 1rem = 16px, então 2.25rem = 36px */
+    /* ...outros estilos ... */
+}
+
+h2 {
+    font-size: 1.75rem; /* Se 1rem = 16px, então 1.75rem = 28px */
+    /* ...outros estilos ... */
+}
+
+p, li {
+    font-size: 1rem; /* Se 1rem = 16px, então 1rem = 16px. Ou 1.0625rem para 17px */
+    /* ...outros estilos ... */
+}
+
+
+/* Keep the presentation image within its available space */
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Visually highlight one hobby */
+.highlight {
+    color: #005fa3;
+    font-weight: bold;
+    background-color: #e6f3ff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Keep keyboard focus visible */
+a:focus-visible {
+    outline: 3px solid #e09b00;
+    outline-offset: 3px;
+}

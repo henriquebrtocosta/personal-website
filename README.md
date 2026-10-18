@@ -1,6 +1,6 @@
 # personal-website
 
-A personal website built with HTML5 and CSS3 as part of the **Behring Academy 7 Sprint**, showcasing my interests, learning goals, and journey in technology and programming.
+A personal website built with HTML5 and CSS3 as part of the **Behring Academy Sprint**, showcasing my interests, learning goals, and journey in technology and programming.
 
 ## About
 
@@ -22,8 +22,9 @@ The website includes:
 
 ```text
 personal-website/
+├── .gitignore
 ├── index.html
 ├── styles.css
-├── profile.jpeg
 ├── README.md
-└── .gitignore
+└── assets/
+    └── profile.jpeg
